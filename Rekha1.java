@@ -1,0 +1,22 @@
+import sp1.Div;
+import java.util.Scanner;
+class Rekha11
+{
+	public static void main(String args[])
+	{
+		System.out.println("enter values");
+		Scanner s1=new Scanner(System.in);
+		String x1=s1.nextLine();
+		String x2=s1.nextLine();
+		Div ov=new Div();
+		try
+		{
+			ov.div(x1,x2);
+		}
+		catch (ArithmeticException ae)
+		{
+			System.err.println(ae);
+		}
+
+}
+}

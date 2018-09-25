@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import sattha.lang.NameFormatException;
+import org.sathya.Namevalidate;
+class VerifyName
+{
+	public static void main(String[] args)
+	{
+		System.out.println("enter ur name");
+		Scanner s=new Scanner(System.in);
+		String name=s.nextLine();
+		Namevalidate no=new Namevalidate();
+		try
+		{
+			
+				no.validate(name);
+		}
+		
+		catch (NameFormatException e)
+		{
+			System.err.println("name should not  contain digits");
+		}
+		finally
+			{
+			System.out.println("iam from finally block");
+			}
+
+ }
+}

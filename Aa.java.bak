@@ -1,0 +1,7 @@
+class A
+{
+	public static void main(String   []Ragu)
+	{
+		System.out.println("RaGav");
+	}
+}

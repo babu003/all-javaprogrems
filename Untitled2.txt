@@ -1,0 +1,12 @@
+javac A.java
+
+java A
+
+1.statrt JVM
+2.loacte .class file
+3.load .class
+4.create main thread
+5.execute main method
+6.unload .class file
+7.terminate main thread
+8.shutdown JVM

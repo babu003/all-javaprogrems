@@ -1,0 +1,9 @@
+class TypeCasting 
+{
+	public static void main(String[] args) 
+	{ 
+		Object  ob="narendra";
+
+		System.out.println(ob.getClass());
+	}
+}

@@ -1,0 +1,8 @@
+package sattha.lang;
+public class NameFormatException extends exception
+{
+	public NameFormatException(String s)
+	{
+		super(s);
+	}
+}
